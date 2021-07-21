@@ -22,6 +22,7 @@
     <list default="true" id="4878e7bf-4ade-4f0c-af94-88f8f4962bbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.envrc.example" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/index_test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -31,7 +32,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../chainlink-adapter" />
   </component>
   <component name="ProjectId" id="1vcsDDJUoTET74X3VibS5JYM9G6" />
   <component name="ProjectViewState">
@@ -58,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626872589337</updated>
       <workItem from="1626872590385" duration="138000" />
-      <workItem from="1626879977253" duration="1339000" />
+      <workItem from="1626879977253" duration="2372000" />
     </task>
     <servers />
   </component>
@@ -94,5 +95,9 @@
       <screen x="0" y="25" width="1792" height="1010" />
     </state>
     <state width="1771" height="272" key="GridCell.Tab.0.right/0.25.1792.1010@0.25.1792.1010" timestamp="1626872728869" />
+    <state x="598" y="293" width="595" height="474" key="find.popup" timestamp="1626881988869">
+      <screen x="0" y="25" width="1792" height="1010" />
+    </state>
+    <state x="598" y="293" width="595" height="474" key="find.popup/0.25.1792.1010@0.25.1792.1010" timestamp="1626881988869" />
   </component>
 </project>
