@@ -92,7 +92,7 @@ const createRequest = (input, callback) => {
       // It's common practice to store the desired value at the top-level
       // result key. This allows different adapters to be compatible with
       // one another.
-      response.data.result = decodeParams(['uint256'], '0x' + Requester.getResult(response.data, ['constant_result', '0']), false)
+      response.data.result = decodeParams(['uint256'], '0x' + Requester.getResult(response.data, ['constant_result', '0']), false)[0].toString()
       callback(response.status, Requester.success(jobRunID, response))
     })
     .catch(error => {
