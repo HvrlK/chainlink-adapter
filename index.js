@@ -65,7 +65,7 @@ const createRequest = (input, callback) => {
   const url = 'https://api.shasta.trongrid.io/wallet/triggerconstantcontract'
 
   const address = (new Buffer(JSON.parse(input.data.user), 'base64')).toString()
-  const parameter = encodeParams([{ type: 'address', value: .value }])
+  const parameter = encodeParams([{ type: 'address', value: address }])
 
   const data = {
     owner_address: 'T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb',
