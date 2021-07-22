@@ -17,7 +17,7 @@ const createRequest = (input, callback) => {
     owner_address: 'T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb',
     contract_address: 'TBSo1pthwZJkkXLwfNUC3wzKG2K7wt2Zvg',
     function_selector: 'confirmedTokensForUser(address)',
-    parameter: input.data.parameter,
+    parameter: JSON.parse(input.data.parameter).value,
     visible: true
   }
 
